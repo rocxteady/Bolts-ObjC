@@ -8,7 +8,12 @@
  *
  */
 
+#if SWIFT_PACKAGE
+#import "BFMeasurementEvent.h"
+#else
 #import <Bolts/BFMeasurementEvent.h>
+#endif
+
 /*!
  Provides methods for posting notifications from the Bolts framework
  */

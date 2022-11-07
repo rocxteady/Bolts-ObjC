@@ -11,7 +11,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#if SWIFT_PACKAGE
+#import "BFAppLinkReturnToRefererView.h"
+#else
 #import <Bolts/BFAppLinkReturnToRefererView.h>
+#endif
 
 @class BFAppLink;
 @class BFAppLinkReturnToRefererController;

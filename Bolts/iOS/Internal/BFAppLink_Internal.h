@@ -8,7 +8,11 @@
  *
  */
 
+#if SWIFT_PACKAGE
+#import "BFAppLink.h"
+#else
 #import <Bolts/BFAppLink.h>
+#endif
 
 FOUNDATION_EXPORT NSString *const BFAppLinkDataParameterName;
 FOUNDATION_EXPORT NSString *const BFAppLinkTargetKeyName;

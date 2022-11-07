@@ -10,8 +10,13 @@
 
 #import <Foundation/Foundation.h>
 
+#if SWIFT_PACKAGE
+#import "BFCancellationToken.h"
+#import "BFGeneric.h"
+#else
 #import <Bolts/BFCancellationToken.h>
 #import <Bolts/BFGeneric.h>
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
 

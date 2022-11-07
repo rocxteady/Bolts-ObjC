@@ -10,7 +10,11 @@
 
 #import <Foundation/Foundation.h>
 
+#if SWIFT_PACKAGE
+#import "BFAppLinkResolving.h"
+#else
 #import <Bolts/BFAppLinkResolving.h>
+#endif
 
 /*!
  A reference implementation for an App Link resolver that uses a hidden WKWebView
