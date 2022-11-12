@@ -8,11 +8,7 @@
  *
  */
 
-#if SWIFT_PACKAGE
 #import "BFAppLinkReturnToRefererView.h"
-#else
-#import <Bolts/BFAppLinkReturnToRefererView.h>
-#endif
 
 @interface BFAppLinkReturnToRefererView (Internal)
 

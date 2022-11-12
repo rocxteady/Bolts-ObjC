@@ -10,11 +10,7 @@
 
 #import <Foundation/Foundation.h>
 
-#if SWIFT_PACKAGE
 #import "BFAppLink.h"
-#else
-#import <Bolts/BFAppLink.h>
-#endif
 
 /*!
  The result of calling navigate on a BFAppLinkNavigation

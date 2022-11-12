@@ -10,19 +10,19 @@ let package = Package(
                 .tvOS(.v10),
                 .watchOS(.v2)],
     products: [
-        .library(name: "Bolts", targets: ["Tasks"]),
-        .library(name: "BoltsAppLinks", targets: ["AppLinks"])
+        .library(name: "Bolts", targets: ["Bolts"]),
+        .library(name: "BoltsAppLinks", targets: ["BoltsAppLinks"])
     ],
     targets: [
         .target(
-            name: "Tasks",
+            name: "Bolts",
             dependencies: [],
-            path: "Bolts/Common",
-            publicHeadersPath: ""),
-        .target(name: "AppLinks",
-                dependencies: ["Tasks"],
+            path: "Bolts/Bolts",
+            publicHeadersPath: "Source"),
+        .target(name: "BoltsAppLinks",
+                dependencies: ["Bolts"],
                 path: "Bolts/iOS",
-                publicHeadersPath: "",
+                publicHeadersPath: "Source",
                 cSettings: [.headerSearchPath("Internal")])
     ]
 )

@@ -8,11 +8,7 @@
  *
  */
 
-#if SWIFT_PACKAGE
 #import "BFURL.h"
-#else
-#import <Bolts/BFURL.h>
-#endif
 
 @interface BFURL (Internal)
 + (BFURL *)URLForRenderBackToReferrerBarURL:(NSURL *)url;

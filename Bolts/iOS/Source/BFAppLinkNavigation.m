@@ -10,10 +10,10 @@
 
 #import "BFAppLinkNavigation.h"
 
-#if SWIFT_PACKAGE
-#import "Bolts.h"
-#else
+#if __has_include(<Bolts/Bolts.h>)
 #import <Bolts/Bolts.h>
+#else
+#import "Bolts.h"
 #endif
 
 #import "BFMeasurementEvent_Internal.h"
