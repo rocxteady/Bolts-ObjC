@@ -116,6 +116,15 @@
 		7CACE66B291FDB99003359B5 /* BFAppLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CACE646291FDB90003359B5 /* BFAppLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CACE66C291FDB99003359B5 /* BFAppLinkReturnToRefererController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CACE63F291FDB90003359B5 /* BFAppLinkReturnToRefererController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CACE66D291FDB99003359B5 /* BFAppLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CACE63D291FDB90003359B5 /* BFAppLink.m */; };
+		7CACE678291FE49D003359B5 /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C78962919C44600CF5A60 /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CACE679291FE49D003359B5 /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C78982919C44600CF5A60 /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CACE67A291FE49D003359B5 /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C789C2919C44600CF5A60 /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CACE67B291FE49D003359B5 /* BFCancellationToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C789D2919C44600CF5A60 /* BFCancellationToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CACE67C291FE49D003359B5 /* BFExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C789F2919C44600CF5A60 /* BFExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CACE67D291FE49D003359B5 /* BFUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C78A22919C44600CF5A60 /* BFUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CACE67E291FE49D003359B5 /* BFTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C78A32919C44600CF5A60 /* BFTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CACE67F291FE49D003359B5 /* BFTaskCompletionSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C78A42919C44600CF5A60 /* BFTaskCompletionSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CACE680291FE49D003359B5 /* BFGeneric.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C78A62919C44600CF5A60 /* BFGeneric.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CD7E6CB291B2AF700D4F9DB /* BFCancellationTokenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C78962919C44600CF5A60 /* BFCancellationTokenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CD7E6CC291B2AF700D4F9DB /* Bolts.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C78982919C44600CF5A60 /* Bolts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CD7E6CD291B2AF700D4F9DB /* BFCancellationTokenRegistration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4C789C2919C44600CF5A60 /* BFCancellationTokenRegistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -651,6 +660,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CACE678291FE49D003359B5 /* BFCancellationTokenSource.h in Headers */,
+				7CACE679291FE49D003359B5 /* Bolts.h in Headers */,
+				7CACE67A291FE49D003359B5 /* BFCancellationTokenRegistration.h in Headers */,
+				7CACE67B291FE49D003359B5 /* BFCancellationToken.h in Headers */,
+				7CACE67C291FE49D003359B5 /* BFExecutor.h in Headers */,
+				7CACE67D291FE49D003359B5 /* BFUtils.h in Headers */,
+				7CACE67E291FE49D003359B5 /* BFTask.h in Headers */,
+				7CACE67F291FE49D003359B5 /* BFTaskCompletionSource.h in Headers */,
+				7CACE680291FE49D003359B5 /* BFGeneric.h in Headers */,
 				7CACE661291FDB99003359B5 /* BFWebViewAppLinkResolver.h in Headers */,
 				7CACE66C291FDB99003359B5 /* BFAppLinkReturnToRefererController.h in Headers */,
 				7CACE665291FDB99003359B5 /* BFMeasurementEvent.h in Headers */,
